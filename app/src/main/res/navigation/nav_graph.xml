@@ -18,5 +18,10 @@
         android:id="@+id/insideHomeFragment"
         android:name="com.nbd.navbar2.InsideHomeFragment"
         android:label="fragment_inside_home"
-        tools:layout="@layout/fragment_inside_home" />
+        tools:layout="@layout/fragment_inside_home" >
+        <argument
+            android:name="argumentoPasado"
+            app:argType="string"
+            android:defaultValue="aaa" />
+    </fragment>
 </navigation>
